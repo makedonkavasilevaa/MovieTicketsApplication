@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MovieShop", "MovieShop", "{B7E2C75A-4268-4B06-A561-1B1236F98698}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movie.Web", "MovieShop\Movie.Web\Movie.Web.csproj", "{CCEBCE98-0CDD-4FA1-BFE9-6236CDA6E53C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CCEBCE98-0CDD-4FA1-BFE9-6236CDA6E53C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCEBCE98-0CDD-4FA1-BFE9-6236CDA6E53C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCEBCE98-0CDD-4FA1-BFE9-6236CDA6E53C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCEBCE98-0CDD-4FA1-BFE9-6236CDA6E53C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CCEBCE98-0CDD-4FA1-BFE9-6236CDA6E53C} = {B7E2C75A-4268-4B06-A561-1B1236F98698}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {43308265-0706-4CDF-BF2E-622A0F5DEBF7}
+	EndGlobalSection
+EndGlobal
