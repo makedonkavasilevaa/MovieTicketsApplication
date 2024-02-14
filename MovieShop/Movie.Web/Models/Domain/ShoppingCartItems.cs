@@ -2,7 +2,7 @@
 
 namespace Movie.Web.Models.Domain
 {
-    public class ShoppingCartItems
+    public class ShoppingCartItem
     {
         [Key]
         public int Id { get; set; }

@@ -1,13 +1,10 @@
-﻿using Movie.Web.Models.Domain;
+﻿using Movie.Web.Data.Base;
+using Movie.Web.Models.Domain;
 
 namespace Movie.Web.Data.Services
 {
-    public interface IActorsService
+    public interface IActorsService : IEntityBaseRepository<Actor>
     {
-        Task<IEnumerable<Actor>> GetAll();
-        Actor GetById(int id);
-        void Add(Actor actor);
-        Actor Update(int id, Actor newActor);
-        void Delete(int id);
+
     }
 }

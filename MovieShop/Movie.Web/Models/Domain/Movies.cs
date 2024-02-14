@@ -1,10 +1,11 @@
-﻿using Movie.Web.Data.Enums;
+﻿using Movie.Web.Data.Base;
+using Movie.Web.Data.Enums;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Movie.Web.Models.Domain
 {
-    public class Movies
+    public class Movies : IEntityBase
     {
         [Key]
         public int Id { get; set; }
@@ -29,6 +30,5 @@ namespace Movie.Web.Models.Domain
         public int ProducerId { get; set; }
         [ForeignKey("ProducerId")]
         public Producer Producer { get; set; }
-
     }
 }

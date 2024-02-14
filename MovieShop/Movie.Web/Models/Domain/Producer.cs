@@ -1,8 +1,9 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Movie.Web.Data.Base;
+using System.ComponentModel.DataAnnotations;
 
 namespace Movie.Web.Models.Domain
 {
-    public class Producer
+    public class Producer : IEntityBase
     {
         [Key]
         public int Id { get; set; }
